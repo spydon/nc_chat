@@ -11,5 +11,5 @@ function hackers() {
 clear
 while :
 do
-  mawk -W interactive '$0="Alice: "$0' | nc -l -p 13337 192.168.1.2
+  mawk -W interactive '$0="Bedroom: "$0' | nc -l -p 13337 192.168.1.2
 done;
